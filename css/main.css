@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  background-color: #012125;
+  background-color: #f7f7f7;
 }
 
 .masthead {
@@ -19,15 +19,16 @@ header {
 
 .banner-text {
   border-radius: 6px;
-  color: #f2f2f2;
+  color: #f7f7f7;
   min-width: 250px;
   width: 100%;
-  left: 50%
+  left: 50%;
   transform: translateX(-50%);
 }
 
 nav a {
-  color: #fff;
+  color: #000;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -35,6 +36,10 @@ nav a:hover {
 }
 
 footer {
-  background-color: #012125;
-  color: #fff;
+  background-color: #f7f7f7;
+  color: #000;
+}
+
+footer svg {
+  color: #000;
 }
