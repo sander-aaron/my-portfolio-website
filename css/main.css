@@ -1,0 +1,40 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #012125;
+}
+
+.masthead {
+  border-bottom: 3px solid #f7c602;
+}
+
+.index-banner {
+  background-image: url("../images/banner.png");
+  min-height: 300px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.banner-text {
+  border-radius: 6px;
+  color: #f2f2f2;
+  min-width: 250px;
+  width: 100%;
+  left: 50%
+  transform: translateX(-50%);
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #f7c602;
+}
+
+footer {
+  background-color: #012125;
+  color: #fff;
+}
