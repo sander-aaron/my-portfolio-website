@@ -87,6 +87,11 @@ footer svg {
   border-radius: 5px;
 }
 
+.yellow-border {
+  border: 5px solid #f7c602;
+  border-radius: 5px;
+}
+
 /* JavaScript starts code here  */
 
 .info-panel-btn {
