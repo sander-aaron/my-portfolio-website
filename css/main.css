@@ -6,7 +6,7 @@ header {
   background-color: #f7f7f7;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -52,17 +52,23 @@ footer svg {
   border-color: #f7c602;
 }
 
+.box {
+  background-color: #f7c602;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+  bottom: 1%;
+  left: 1%;
+}
+
 /* JavaScript starts code here  */
 
 .info-panel-btn {
   color: #000;
-  text-shadow: 1px 1px 2px rgba(247, 198, 2, .7);
   letter-spacing: .03em;
 }
 
 .info-panel-btn-indicator {
   display: none;
-  filter: drop-shadow(0 -1px 2px rgba(247, 198, 2, .7);
 }
 
 .info-panel-btn-active::before {
