@@ -21,6 +21,11 @@ h1 {
   background-position: 50% 50%;
 }
 
+.gigantic {
+  font-size: 4rem;
+  line-height: 3.925rem;
+}
+
 .other-banner {
   background-image: url("../images/banner.png");
   min-height: 100px;
@@ -38,6 +43,11 @@ h1 {
 }
 
 nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+a {
   color: #000;
   text-decoration: none;
 }
@@ -72,6 +82,11 @@ footer svg {
   left: 1%;
 }
 
+.yellow {
+  background-color: #f7c602;
+  border-radius: 5px;
+}
+
 /* JavaScript starts code here  */
 
 .info-panel-btn {
@@ -91,7 +106,7 @@ footer svg {
   height: 10px;
   width: 100%;
 
-  box-shadow: 0 -1px 5px rgba(247, 198, 2, .7);
+  box-shadow: 0 5px 5px rgba(247, 198, 2, .7);
 }
 
 .info-panel-btn-active .info-panel-btn-indicator {
