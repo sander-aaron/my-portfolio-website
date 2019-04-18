@@ -121,4 +121,16 @@ footer svg {
   border: 3px solid #f7c602;
 }
 
+small {
+  color: #5b5b5b;
+}
+
+small ul {
+  text-indent: 3%;
+}
+
+.onebyone {
+  max-height: 420px;
+}
+
 /* JavaScript ends code here  */
