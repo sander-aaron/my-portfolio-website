@@ -21,6 +21,13 @@ h1 {
   background-position: 50% 50%;
 }
 
+.other-banner {
+  background-image: url("../images/banner.png");
+  min-height: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .banner-text {
   border-radius: 6px;
   color: #f7f7f7;
